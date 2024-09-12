@@ -1,0 +1,476 @@
+{
+    "posts": [
+        {
+        "titulo": "Meio & Mensagem",
+        "descricao_home": "Lorem ipsum dolor sit amet consectetur. Laoreet ac sed turpis nullam malesuada est platea. Posuere ornare sit viverra est magna egestas. Felis venenatis imperdiet et donec egestas eu. Diam egestas at vel semper libero nam porta vitae. Odio ut nunc euismod vehicula lectus.",
+        "descricao_interna":"Lorem ipsum dolor sit amet consectetur. Morbi dui in facilisis facilisis. Nulla sit sit volutpat varius sed sed commodo venenatis. Praesent sed quis odio massa sit. Lorem at nullam facilisis dolor pharetra nisi eu lorem. Non orci cursus porta ut. Luctus nunc eget id vulputate dolor vitae. Purus scelerisque libero auctor sed amet porttitor ut ut neque.",
+        "img_thumb": "src/imgs/thumbs/mm.jpg",
+        "url":"meio-mensagem",
+        "bg_color": "#a9dfff",
+        "categoria": "UI/UX Design",
+        "role": [
+            "Interface design",
+            "Wireframe",
+            "User flow",
+            "Prototyping"
+        ],
+        "tools": [
+            "Figma",
+            "Whimsical",
+            "Google Material"
+        ],
+        "Client": [
+            "Delivery Time"
+        ],
+        "Date": [
+            "2022"
+        ],
+        "galeria": [
+            {"img": "src/imgs/projects/meiomensagem/img1.jpg"},
+            {"img": "src/imgs/projects/meiomensagem/img2.jpg"},
+            {"img": "src/imgs/projects/meiomensagem/img3.jpg", "center": true},
+            {"img": "src/imgs/projects/meiomensagem/img4.jpg"},
+            {"img": "src/imgs/projects/meiomensagem/img5.jpg"}
+        ]
+        },
+        {
+        "titulo": "L5 chat",
+        "descricao_home": "Lorem ipsum dolor sit amet consectetur. Laoreet ac sed turpis nullam malesuada est platea. Posuere ornare sit viverra est magna egestas. Felis venenatis imperdiet et donec egestas eu. Diam egestas at vel semper libero nam porta vitae. Odio ut nunc euismod vehicula lectus.",
+        "descricao_interna":"Lorem ipsum dolor sit amet consectetur. Morbi dui in facilisis facilisis. Nulla sit sit volutpat varius sed sed commodo venenatis. Praesent sed quis odio massa sit. Lorem at nullam facilisis dolor pharetra nisi eu lorem. Non orci cursus porta ut. Luctus nunc eget id vulputate dolor vitae. Purus scelerisque libero auctor sed amet porttitor ut ut neque.",
+        "img_thumb": "src/imgs/thumbs/chat.jpg",
+        "url":"l5-chat",
+        "bg_color": "#f2e9ff",
+        "categoria": "UI/UX Design",
+        "role": [
+            "Interface design",
+            "Wireframe",
+            "User flow",
+            "Prototyping"
+        ],
+        "tools": [
+            "Figma",
+            "Whimsical",
+            "Google Material"
+        ],
+        "Client": [
+            "Delivery Time"
+        ],
+        "Date": [
+            "2022"
+        ],
+        "galeria": [
+            {"img": "src/imgs/projects/l5chat/img1.jpg"},
+            {"img": "src/imgs/projects/l5chat/img2.jpg"},
+            {"img": "src/imgs/projects/l5chat/img3.jpg", "center": true},
+            {"img": "src/imgs/projects/l5chat/img4.jpg"},
+            {"img": "src/imgs/projects/l5chat/img5.jpg"}
+        ]
+        },
+        {
+        "titulo": "Flash Service",
+        "descricao_home": "Lorem ipsum dolor sit amet consectetur. Laoreet ac sed turpis nullam malesuada est platea. Posuere ornare sit viverra est magna egestas. Felis venenatis imperdiet et donec egestas eu. Diam egestas at vel semper libero nam porta vitae. Odio ut nunc euismod vehicula lectus.",
+        "descricao_interna":"Lorem ipsum dolor sit amet consectetur. Morbi dui in facilisis facilisis. Nulla sit sit volutpat varius sed sed commodo venenatis. Praesent sed quis odio massa sit. Lorem at nullam facilisis dolor pharetra nisi eu lorem. Non orci cursus porta ut. Luctus nunc eget id vulputate dolor vitae. Purus scelerisque libero auctor sed amet porttitor ut ut neque.",
+        "img_thumb": "src/imgs/thumbs/flash.jpg",
+        "url":"flash-service",
+        "bg_color": "#fffceb",
+        "categoria": "Web design",
+        "role": [
+            "Interface design",
+            "Wireframe",
+            "User flow",
+            "Prototyping"
+        ],
+        "tools": [
+            "Figma",
+            "Whimsical",
+            "Google Material"
+        ],
+        "Client": [
+            "Delivery Time"
+        ],
+        "Date": [
+            "2022"
+        ],
+        "galeria": [
+            {"img": "src/imgs/projects/flashservice/img1.jpg"},
+            {"img": "src/imgs/projects/flashservice/img2.jpg"},
+            {"img": "src/imgs/projects/flashservice/img3.jpg", "center": true},
+            {"img": "src/imgs/projects/flashservice/img4.jpg"},
+            {"img": "src/imgs/projects/flashservice/img5.jpg"}
+        ]
+        },
+        {
+        "titulo": "Via App",
+        "descricao_home": "Lorem ipsum dolor sit amet consectetur. Laoreet ac sed turpis nullam malesuada est platea. Posuere ornare sit viverra est magna egestas. Felis venenatis imperdiet et donec egestas eu. Diam egestas at vel semper libero nam porta vitae. Odio ut nunc euismod vehicula lectus.",
+        "descricao_interna":"Lorem ipsum dolor sit amet consectetur. Morbi dui in facilisis facilisis. Nulla sit sit volutpat varius sed sed commodo venenatis. Praesent sed quis odio massa sit. Lorem at nullam facilisis dolor pharetra nisi eu lorem. Non orci cursus porta ut. Luctus nunc eget id vulputate dolor vitae. Purus scelerisque libero auctor sed amet porttitor ut ut neque.",
+        "img_thumb": "src/imgs/thumbs/viaapp.jpg",
+        "url":"via-app",
+        "bg_color": "#eff3fe",
+        "categoria": "Web design",
+        "role": [
+            "Interface design",
+            "Wireframe",
+            "User flow",
+            "Prototyping"
+        ],
+        "tools": [
+            "Figma",
+            "Whimsical",
+            "Google Material"
+        ],
+        "Client": [
+            "Delivery Time"
+        ],
+        "Date": [
+            "2022"
+        ],
+        "galeria": [
+            {"img": "src/imgs/projects/viaapp/img1.jpg"},
+            {"img": "src/imgs/projects/viaapp/img2.jpg"},
+            {"img": "src/imgs/projects/viaapp/img3.jpg", "center": true},
+            {"img": "src/imgs/projects/viaapp/img4.jpg"},
+            {"img": "src/imgs/projects/viaapp/img5.jpg"},
+            {"img": "src/imgs/projects/viaapp/img6.jpg"},
+            {"img": "src/imgs/projects/viaapp/img7.jpg"},
+            {"img": "src/imgs/projects/viaapp/img8.jpg"},
+            {"img": "src/imgs/projects/viaapp/img9.jpg"}
+        ]
+        },
+        {
+        "titulo": "Pay Food & Delivery Time",
+        "descricao_home": "Lorem ipsum dolor sit amet consectetur. Laoreet ac sed turpis nullam malesuada est platea. Posuere ornare sit viverra est magna egestas. Felis venenatis imperdiet et donec egestas eu. Diam egestas at vel semper libero nam porta vitae. Odio ut nunc euismod vehicula lectus.",
+        "descricao_interna":"Lorem ipsum dolor sit amet consectetur. Morbi dui in facilisis facilisis. Nulla sit sit volutpat varius sed sed commodo venenatis. Praesent sed quis odio massa sit. Lorem at nullam facilisis dolor pharetra nisi eu lorem. Non orci cursus porta ut. Luctus nunc eget id vulputate dolor vitae. Purus scelerisque libero auctor sed amet porttitor ut ut neque.",
+        "img_thumb": "src/imgs/thumbs/delivery.jpg",
+        "url":"payfood-deliverytime",
+        "bg_color": "#8df6ff",
+        "categoria": "Web design",
+        "role": [
+            "Interface design",
+            "Wireframe",
+            "User flow",
+            "Prototyping"
+        ],
+        "tools": [
+            "Figma",
+            "Whimsical",
+            "Google Material"
+        ],
+        "Client": [
+            "Delivery Time"
+        ],
+        "Date": [
+            "2022"
+        ],
+        "galeria": [
+            {"img": "src/imgs/projects/deliverytime/img1.jpg"},
+            {"img": "src/imgs/projects/deliverytime/img2.jpg"},
+            {"img": "src/imgs/projects/deliverytime/img3.jpg", "center": true},
+            {"img": "src/imgs/projects/deliverytime/img4.jpg"},
+            {"img": "src/imgs/projects/deliverytime/img5.jpg"},
+            {"img": "src/imgs/projects/deliverytime/img6.jpg"}
+        ]
+        },
+        {
+        "titulo": "Medic 24h",
+        "descricao_home": "Lorem ipsum dolor sit amet consectetur. Laoreet ac sed turpis nullam malesuada est platea. Posuere ornare sit viverra est magna egestas. Felis venenatis imperdiet et donec egestas eu. Diam egestas at vel semper libero nam porta vitae. Odio ut nunc euismod vehicula lectus.",
+        "descricao_interna":"Lorem ipsum dolor sit amet consectetur. Morbi dui in facilisis facilisis. Nulla sit sit volutpat varius sed sed commodo venenatis. Praesent sed quis odio massa sit. Lorem at nullam facilisis dolor pharetra nisi eu lorem. Non orci cursus porta ut. Luctus nunc eget id vulputate dolor vitae. Purus scelerisque libero auctor sed amet porttitor ut ut neque.",
+        "img_thumb": "src/imgs/thumbs/medic.jpg",
+        "url":"medic-24h",
+        "bg_color": "#9beef7",
+        "categoria": "Web design",
+        "role": [
+            "Interface design",
+            "Wireframe",
+            "User flow",
+            "Prototyping"
+        ],
+        "tools": [
+            "Figma",
+            "Whimsical",
+            "Google Material"
+        ],
+        "Client": [
+            "Delivery Time"
+        ],
+        "Date": [
+            "2022"
+        ],
+        "galeria": [
+            {"img": "src/imgs/projects/medic24h/img1.jpg"},
+            {"img": "src/imgs/projects/medic24h/img2.jpg"},
+            {"img": "src/imgs/projects/medic24h/img3.jpg", "center": true},
+            {"img": "src/imgs/projects/medic24h/img4.jpg"},
+            {"img": "src/imgs/projects/medic24h/img5.jpg"}
+        ]
+        },
+        {
+        "titulo": "Radio ZLZN",
+        "descricao_home": "Lorem ipsum dolor sit amet consectetur. Laoreet ac sed turpis nullam malesuada est platea. Posuere ornare sit viverra est magna egestas. Felis venenatis imperdiet et donec egestas eu. Diam egestas at vel semper libero nam porta vitae. Odio ut nunc euismod vehicula lectus.",
+        "descricao_interna":"Lorem ipsum dolor sit amet consectetur. Morbi dui in facilisis facilisis. Nulla sit sit volutpat varius sed sed commodo venenatis. Praesent sed quis odio massa sit. Lorem at nullam facilisis dolor pharetra nisi eu lorem. Non orci cursus porta ut. Luctus nunc eget id vulputate dolor vitae. Purus scelerisque libero auctor sed amet porttitor ut ut neque.",
+        "img_thumb": "src/imgs/thumbs/radio.jpg",
+        "url":"radio-zlzn",
+        "bg_color": "#f7b7a2",
+        "categoria": "Web design",
+        "role": [
+            "Interface design",
+            "Wireframe",
+            "User flow",
+            "Prototyping"
+        ],
+        "tools": [
+            "Figma",
+            "Whimsical",
+            "Google Material"
+        ],
+        "Client": [
+            "Delivery Time"
+        ],
+        "Date": [
+            "2022"
+        ],
+        "galeria": [
+            {"img": "src/imgs/projects/radiozlzn/img1.jpg"},
+            {"img": "src/imgs/projects/radiozlzn/img2.jpg"},
+            {"img": "src/imgs/projects/radiozlzn/img3.jpg", "center": true},
+            {"img": "src/imgs/projects/radiozlzn/img4.jpg"}
+        ]
+        },
+        {
+        "titulo": "Imediato",
+        "descricao_home": "Lorem ipsum dolor sit amet consectetur. Laoreet ac sed turpis nullam malesuada est platea. Posuere ornare sit viverra est magna egestas. Felis venenatis imperdiet et donec egestas eu. Diam egestas at vel semper libero nam porta vitae. Odio ut nunc euismod vehicula lectus.",
+        "descricao_interna":"Lorem ipsum dolor sit amet consectetur. Morbi dui in facilisis facilisis. Nulla sit sit volutpat varius sed sed commodo venenatis. Praesent sed quis odio massa sit. Lorem at nullam facilisis dolor pharetra nisi eu lorem. Non orci cursus porta ut. Luctus nunc eget id vulputate dolor vitae. Purus scelerisque libero auctor sed amet porttitor ut ut neque.",
+        "img_thumb": "src/imgs/thumbs/imediato.jpg",
+        "url":"imediato",
+        "bg_color": "#ffe79e",
+        "categoria": "Web design",
+        "role": [
+            "Interface design",
+            "Wireframe",
+            "User flow",
+            "Prototyping"
+        ],
+        "tools": [
+            "Figma",
+            "Whimsical",
+            "Google Material"
+        ],
+        "Client": [
+            "Delivery Time"
+        ],
+        "Date": [
+            "2022"
+        ],
+        "galeria": [
+            {"img": "src/imgs/projects/imediato/img1.jpg"},
+            {"img": "src/imgs/projects/imediato/img2.jpg"},
+            {"img": "src/imgs/projects/imediato/img3.jpg", "center": true},
+            {"img": "src/imgs/projects/imediato/img4.jpg"},
+            {"img": "src/imgs/projects/imediato/img5.jpg"},
+            {"img": "src/imgs/projects/imediato/img6.jpg"},
+            {"img": "src/imgs/projects/imediato/img7.jpg"},
+            {"img": "src/imgs/projects/imediato/img8.jpg"},
+            {"img": "src/imgs/projects/imediato/img9.jpg"},
+            {"img": "src/imgs/projects/imediato/img10.jpg"},
+            {"img": "src/imgs/projects/imediato/img11.jpg"}
+        ]
+        },
+        {
+        "titulo": "Educpay",
+        "descricao_home": "Lorem ipsum dolor sit amet consectetur. Laoreet ac sed turpis nullam malesuada est platea. Posuere ornare sit viverra est magna egestas. Felis venenatis imperdiet et donec egestas eu. Diam egestas at vel semper libero nam porta vitae. Odio ut nunc euismod vehicula lectus.",
+        "descricao_interna":"Lorem ipsum dolor sit amet consectetur. Morbi dui in facilisis facilisis. Nulla sit sit volutpat varius sed sed commodo venenatis. Praesent sed quis odio massa sit. Lorem at nullam facilisis dolor pharetra nisi eu lorem. Non orci cursus porta ut. Luctus nunc eget id vulputate dolor vitae. Purus scelerisque libero auctor sed amet porttitor ut ut neque.",
+        "img_thumb": "src/imgs/thumbs/educpay.jpg",
+        "url":"educpay",
+        "bg_color": "#bafff5",
+        "categoria": "Web design",
+        "role": [
+            "Interface design",
+            "Wireframe",
+            "User flow",
+            "Prototyping"
+        ],
+        "tools": [
+            "Figma",
+            "Whimsical",
+            "Google Material"
+        ],
+        "Client": [
+            "Delivery Time"
+        ],
+        "Date": [
+            "2022"
+        ],
+        "galeria": [
+            {"img": "src/imgs/projects/educpay/img1.jpg"},
+            {"img": "src/imgs/projects/educpay/img2.jpg"},
+            {"img": "src/imgs/projects/educpay/img3.jpg", "center": true},
+            {"img": "src/imgs/projects/educpay/img4.jpg"},
+            {"img": "src/imgs/projects/educpay/img5.jpg"},
+            {"img": "src/imgs/projects/educpay/img6.jpg"},
+            {"img": "src/imgs/projects/educpay/img7.jpg"},
+            {"img": "src/imgs/projects/educpay/img8.jpg"},
+            {"img": "src/imgs/projects/educpay/img9.jpg"}
+        ]
+        },
+        {
+        "titulo": "Achei para você",
+        "descricao_home": "Lorem ipsum dolor sit amet consectetur. Laoreet ac sed turpis nullam malesuada est platea. Posuere ornare sit viverra est magna egestas. Felis venenatis imperdiet et donec egestas eu. Diam egestas at vel semper libero nam porta vitae. Odio ut nunc euismod vehicula lectus.",
+        "descricao_interna":"Lorem ipsum dolor sit amet consectetur. Morbi dui in facilisis facilisis. Nulla sit sit volutpat varius sed sed commodo venenatis. Praesent sed quis odio massa sit. Lorem at nullam facilisis dolor pharetra nisi eu lorem. Non orci cursus porta ut. Luctus nunc eget id vulputate dolor vitae. Purus scelerisque libero auctor sed amet porttitor ut ut neque.",
+        "img_thumb": "src/imgs/thumbs/acheipvc.jpg",
+        "url":"achei-para-voce",
+        "bg_color": "#a4eaff",
+        "categoria": "Web design",
+        "role": [
+            "Interface design",
+            "Wireframe",
+            "User flow",
+            "Prototyping"
+        ],
+        "tools": [
+            "Figma",
+            "Whimsical",
+            "Google Material"
+        ],
+        "Client": [
+            "Delivery Time"
+        ],
+        "Date": [
+            "2022"
+        ],
+        "galeria": [
+            {"img": "src/imgs/projects/acheipvc/img1.jpg"},
+            {"img": "src/imgs/projects/acheipvc/img2.jpg"},
+            {"img": "src/imgs/projects/acheipvc/img3.jpg", "center": true},
+            {"img": "src/imgs/projects/acheipvc/img4.jpg"},
+            {"img": "src/imgs/projects/acheipvc/img5.jpg"},
+            {"img": "src/imgs/projects/acheipvc/img6.jpg"},
+            {"img": "src/imgs/projects/acheipvc/img7.jpg"},
+            {"img": "src/imgs/projects/acheipvc/img8.jpg"}
+        ]
+        }
+    ],
+    "about": {
+        "image": "/src/imgs/about.png",
+        "resume": "/src/luiza_cv.pdf",
+        "descricao": {
+            "titulo": "Designing with love for over 10 years",
+            "texto": "I’m a User Interface/Product Designer with 14 years of experience crafting clean, user-centered designs for mobile apps, web platforms, and landing pages. My journey has taken me through collaborations with cross-functional teams and a diverse range of clients, from innovative startups to established brands. I’m passionate about turning complex problems into intuitive and visually stunning experiences. Always proactive and committed to growth, I stay ahead of the curve with the latest tools, technologies, and design trends. I believe that continuous learning fuels creativity and helps me keep the magic alive in my designs. When I’m not designing, you might find me drawing, painting, and traveling."
+        },
+        "skills": [
+            {
+                "name":"UI Design",
+                "percent":"90%"
+            },
+            {
+                "name":"UX Design",
+                "percent":"65%"
+            },
+            {
+                "name":"Mobile app design",
+                "percent":"80%"
+            },
+            {
+                "name":"Wireframing",
+                "percent":"75%"
+            },
+            {
+                "name":"Responsive design",
+                "percent":"70%"
+            },
+            {
+                "name":"Figma",
+                "percent":"90%"
+            },
+            {
+                "name":"Sketch",
+                "percent":"80%"
+            },
+            {
+                "name":"Adobe XD",
+                "percent":"40%"
+            },
+            {
+                "name":"Photoshop & Illustrator",
+                "percent":"85%"
+            },
+            {
+                "name":"Front-end",
+                "percent":"30%"
+            }
+        ],
+        "experience": [
+            {
+                "position": "UI/UX Designer",
+                "from": "2017",
+                "to": "present",
+                "employer": "Megaleios"
+            },
+            {
+                "position": "Web Designer",
+                "from": "2010",
+                "to": "present",
+                "employer": "4Now"
+            },
+            {
+                "position": "UI/UX Designer",
+                "from": "2013",
+                "to": "present",
+                "employer": "Rino"
+            },
+            {
+                "position": "UI/UX Designer",
+                "from": "2017",
+                "to": "present",
+                "employer": "Megaleios"
+            },
+            {
+                "position": "UI/UX Designer",
+                "from": "2017",
+                "to": "present",
+                "employer": "Megaleios"
+            }
+        ],
+        "education": [
+            {
+                "year": "2020",
+                "course_name": "UI Design",
+                "school": "uiBoost"
+            },
+            {
+                "year": "2010",
+                "course_name": "UI Design",
+                "school": "Anhembi Morumbi"
+            },
+            {
+                "year": "2012",
+                "course_name": "UI Design",
+                "school": "Panamericana"
+            },
+            {
+                "year": "2020",
+                "course_name": "UI Design",
+                "school": "uiBoost"
+            },
+            {
+                "year": "2020",
+                "course_name": "UI Design",
+                "school": "uiBoost"
+            },
+            {
+                "year": "2020",
+                "course_name": "UI Design",
+                "school": "uiBoost"
+            }
+        ]
+    },
+    "footer": {
+        "e-mail": "luiza@yakistudio.com",
+        "phone": "+55 11 986899408",
+        "social-medias": [
+            {
+                "linkedin": "http://",
+                "behance": "http://",
+                "dribbble": "http://"
+            }
+        ]
+    }
+}

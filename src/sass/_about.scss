@@ -1,0 +1,298 @@
+.about-me {
+
+    &_intro {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 60px;
+        position: relative;
+        padding-top: 68px;
+
+        @include size(small){
+            padding-top: 48px;
+        }
+
+        &_img {
+            margin-top: 80px;
+            margin-bottom: 60px;
+            max-width: 355px;
+            width: 100%;
+
+            @include size(small){
+                max-width: 193px;
+                margin-top: 32px;
+                margin-bottom: 24px;
+            }
+        }
+
+        h2 {
+            text-align: center;
+            font-family: $fontAndada;
+            font-size: 62px;
+            font-weight: 800;
+            @include text-gradient;
+            transition-delay: .2s;
+
+            @include size(small){
+                font-size: 34px;
+            }
+
+            span {
+                display: block;
+                font-family: $fontGruenewald;
+                font-size: 40px;
+                font-weight: 400;
+                color: $darkgrey;
+                -webkit-text-fill-color:$darkgrey;
+                line-height: 60px;
+
+                @include size(small){
+                    font-size: 24px;
+                    line-height: 35px;
+                }
+            }
+        }
+
+        .more {
+            margin-top: 55px;
+            animation: Up 500ms ease-in-out 1;
+            animation-delay: 0.1s;
+            opacity: 0;
+            animation-fill-mode: forwards;
+
+            @include size(small){
+                margin-top: 24px;
+                animation: none;
+                opacity: 1;
+            }
+        }
+
+        &:after {
+            content: '';
+            height: 3px;
+            width: 47px;
+            position: absolute;
+            bottom: 0;
+            background: rgb(228,120,153);
+            background: linear-gradient(135deg, rgba(228,120,153,1) 0%, rgba(252,153,130,1) 10%, rgba(179,129,190,1) 22%, rgba(36,177,173,1) 33%, rgba(178,167,106,1) 43%, rgba(228,120,153,1) 58%, rgba(179,129,190,1) 66%, rgba(224,194,129,1) 76%, rgba(36,177,173,1) 88%, rgba(224,194,129,1) 100%);
+            background-size: 250%;
+        }
+    }
+
+    &_text {
+        max-width: 1140px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 60px;
+        margin-bottom: 50px;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+
+        @include size(medium){
+            padding: 0 20px;
+        }
+
+        @include size(small){
+            display: block;
+            margin-bottom: 48px;
+        }
+
+        &_descripton {
+            max-width: 563px;
+            width: 100%;
+
+            @include size(small){
+                margin-bottom: 48px;
+            }
+
+            h6 {
+                font-size: 21px;
+                font-family: $fontAndada;
+                font-weight: 800;
+                margin-bottom: 24px;
+            }
+
+            p {
+                font-size: 18px;
+                line-height: 24px;
+                letter-spacing: 1px;
+            }
+        }
+
+        &_skills {
+            max-width: 412px;
+            width: 100%;
+            transition-delay: .2s;
+
+            ul { 
+                li {
+                    display: flex;
+                    gap: 10px;
+                    align-items: center;
+                    margin-bottom: 24px;
+                    justify-content: end;
+
+                    @include size(small){
+                        align-items: flex-start;
+                        flex-direction: column;
+                        margin-bottom: 32px;
+                    }
+
+                    &:last-child {
+                        margin-bottom: 0;
+                    }
+
+                    p {
+                        font-size: 17px;
+                        letter-spacing: 1px;
+                        text-align: right;
+                    }
+
+                    span {
+                        height: 1px;
+                        max-width: 200px;
+                        width: 100%;
+                        background: rgba(0, 0, 0, 0.2);
+                        position: relative;
+
+                        &:before {
+                            content: '';
+                            height: 4px;
+                            //width: var(--skill);
+                            width: 0;
+                            position: absolute;
+                            top: -1.5px;
+                            left: 0;
+                            background-color: $darkgrey;
+                            transition: all 0.5s ease-in-out;
+                            transition-delay: 0.3s;
+
+                            @include size(small){
+                                width: var(--skill);
+                            }
+                        }
+                    }
+
+                    &.on {
+                        span {
+                            &:before {
+                                width: var(--skill);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    &_grid {
+        display: flex;
+        max-width: 1140px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: space-between;
+        align-items: flex-start;
+        gap: 20px;
+        padding-top: 50px;
+        margin-bottom: 80px;
+
+        @include size(small){
+            display: block;
+            padding-top: 0;
+            margin-bottom: 40px;
+        }
+
+        & > div {
+            max-width: 560px;
+            width: 100%;
+            padding: 0 64px;
+
+            @include size(small){
+                padding: 0 20px;
+            }
+
+            h4 {
+                font-size: 34px;
+                font-weight: 800;
+                font-family: $fontAndada;
+                margin-bottom: 48px;
+                position: relative;
+                padding-top: 72px;
+
+                @include size(small){
+                    padding-top: 48px;
+                    margin-bottom: 24px;
+                }
+
+                &:before {
+                    content: '';
+                    height: 24px;
+                    width: 24px;
+                    display: block;
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                }
+            }
+
+            ul {
+                li {
+                    margin-bottom: 32px;
+
+                    &:last-child {
+                        margin-bottom: 0;
+                    }
+
+                    small {
+                        font-size: 18px;
+                        line-height: 24px;
+                        letter-spacing: 1px;
+                        margin-bottom: 4px;
+                        display: block;
+                    }
+
+                    p {
+                        font-family: $fontAndada;
+                        font-size: 18px;
+                        line-height: 21px;
+                        font-weight: 800;
+                        margin-bottom: 4px;
+                        display: block;
+                    }
+
+                    span {
+                        font-size: 18px;
+                        line-height: 24px;
+                        letter-spacing: 1px;
+                        margin-bottom: 4px;
+                        display: block;
+                    }
+                }
+            }
+            
+        }
+
+        &_experience {
+            @include size(small){
+                margin-bottom: 48px;
+            }
+            h4 {
+                &:before {
+                    background-image: url('/src/imgs/experience.svg');
+                }
+            }
+        }
+
+        &_education {
+            transition-delay: .2s;
+            h4 {
+                &:before {
+                    background-image: url('/src/imgs/education.svg');
+                }
+            }
+        }
+    }
+}

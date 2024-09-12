@@ -1,0 +1,184 @@
+.intro {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+    @include size(small){
+        height: auto;
+        margin-top: 120px;
+        margin-bottom: 54px;
+    }
+
+    h1 {
+        font-family: $fontAndada;
+        font-size: 99px;
+        font-weight: 800;
+        @include text-gradient;
+        display: flex;
+        flex-direction: column;
+        line-height: 100px;
+
+        @include size(medium){
+            font-size: 60px;
+            line-height: 60px;
+        }
+
+        @include size(small){
+            font-size: 56px;
+            line-height: 56px;
+        }
+
+        span {
+            &:last-child {
+                line-height: 145px;
+                margin-top: -22px;
+
+                @include size(medium){
+                    line-height: 100px;
+                    margin-top: -14px;
+                }
+
+                @include size(small){
+                    line-height: 56px;
+                    margin-top: 0;
+                }
+            }
+        }
+
+        i {
+            font-family: $fontGruenewald;
+            font-weight: 400;
+        }
+    }
+
+    .more {
+        margin-top: 42px;
+        transition-delay: .2s;
+    }
+}
+
+.works {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+
+    @include size(small){
+        margin-top: 54px;
+    }
+
+    .project {
+         & > a {
+            margin: 100px auto;
+            display: flex;
+            gap: 88px;
+            justify-content: center;
+            color: $darkgrey;
+            text-decoration: none;
+            max-width: 1118px;
+            width: 100%;
+
+            @include size(medium){
+                margin: 60px auto;
+                gap: 30px;
+            }
+
+            @include size(small){
+                margin: 32px auto;
+                display: block;
+            }
+
+            .img {
+                border-radius: 20px;
+                max-width: 659px;
+                height: 569px;
+                width: 100%;
+                overflow: hidden;
+
+                @include size(medium){
+                    max-width: 400px;
+                    height: 300px;
+                }
+
+                img {
+                    width: 100%;
+                    transform: scale(1);
+                    transition: all .3s ease-in-out;
+                    height: 100%;
+                    object-fit: cover;
+                }
+            }
+
+            .description {
+                align-self: center;
+                max-width: 320px;
+                width: 100%;
+
+                .title {
+                    font-size: 34px;
+                    font-family: $fontAndada;
+                    padding: 32px 0;
+                    position: relative;
+                    line-height: 40px;
+                    font-weight: 800;
+
+                    @include size(medium){
+                        font-size: 28px;
+                        line-height: 32px;
+                        padding: 20px 0;
+                    }
+
+                    @include size(small){
+                        padding: 24px 0 16px;
+                        font-size: 25px;
+                    }
+
+                    &:before {
+                        content: '';
+                        height: 3px;
+                        width: 47px;
+                        position: absolute;
+                        top: 0;
+                        background: rgb(228,120,153);
+                        background: linear-gradient(135deg, rgba(228,120,153,1) 0%, rgba(252,153,130,1) 10%, rgba(179,129,190,1) 22%, rgba(36,177,173,1) 33%, rgba(178,167,106,1) 43%, rgba(228,120,153,1) 58%, rgba(179,129,190,1) 66%, rgba(224,194,129,1) 76%, rgba(36,177,173,1) 88%, rgba(224,194,129,1) 100%);
+                        background-size: 250%;
+
+                        @include size(small){
+                            display: none;
+                        }
+                    }
+                }
+
+                .text {
+                    font-size: 16px;
+                    letter-spacing: 1px;
+                    line-height: 21px;
+                    margin-bottom: 32px;
+
+                    @include size(small){
+                        margin-bottom: 16px;
+                    }                    
+                }
+            }
+
+            &:hover {
+                .img {
+                    img {
+                        transform: scale(1.05);
+                    }
+                }
+            }
+         }
+
+         &:nth-child(2n){
+            & > a {
+                flex-direction: row-reverse;
+            }
+        }
+
+        &.on {
+            background-color: attr(data-color);
+        }
+    }
+}

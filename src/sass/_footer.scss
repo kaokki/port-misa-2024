@@ -1,0 +1,97 @@
+footer {
+    width: 100%;
+
+    & > .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 121px;
+
+        @include size(small){
+            height: auto;
+        } 
+
+        @include size(small){
+            display: block;
+            padding-top: 32px;
+            padding-bottom: 32px;
+            margin-top: 32px;
+        }
+
+        & > div {
+            display: flex;
+
+            &:first-child{
+                @include size(small){
+                    display: block;
+                }
+            }
+
+            &.socialmedia {
+                display: flex;
+                gap: 20px;
+                transition: all 0.2s ease-in-out;
+
+                a {
+                    height: 24px;
+                    width: 24px;
+                    transition: all 0.2s ease-in-out;
+
+                    span {
+                        &.behance {
+                            content: url('../imgs/behance.svg');
+                        }
+                        &.linkedin {
+                            content: url('../imgs/linkedin.svg');
+                        }
+                        &.dribbble {
+                            content: url('../imgs/dribbble.svg');
+                        }
+                    }
+                }
+
+                &:hover {
+                    a {
+                        opacity: 0.3; 
+                    }
+
+                    a:hover {
+                        opacity: 1;
+                    }
+                }
+            }
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 24px;
+            letter-spacing: 1px;
+
+            @include size(small){
+                margin-bottom: 16px;
+            }
+
+            &:first-child {
+                margin-right: 16px;
+                position: relative;
+
+                @include size(small){
+                    margin-right: 0;
+                }
+
+                &:after {
+                    content: url('../imgs/sparkle.svg');
+                    vertical-align: middle;
+                    margin-left: 16px;
+
+                    @include size(small){
+                        position: absolute;
+                        top: -32px;
+                        left: 0;
+                        margin-left: 0;
+                    }
+                }
+            }
+        }
+    }
+}
