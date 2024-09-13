@@ -463,14 +463,12 @@
         ]
     },
     "footer": {
-        "e-mail": "luiza@yakistudio.com",
+        "email": "luiza@yakistudio.com",
         "phone": "+55 11 986899408",
-        "social-medias": [
-            {
-                "linkedin": "http://",
-                "behance": "http://",
-                "dribbble": "http://"
-            }
-        ]
+        "socialmedias": {
+            "linkedin": "http://linkedin.com",
+            "behance": "http://behance.com",
+            "dribbble": "http://dribbble.com"
+        }
     }
 }

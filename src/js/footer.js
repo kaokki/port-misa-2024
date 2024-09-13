@@ -3,23 +3,31 @@ export class FooterSite extends HTMLElement {
         super();
 
         let template = document.createElement('template');
-        template.innerHTML = `
-        <footer>
-            <div class="container">
-                <div class="left">
-                    <p>luiza@yakistudio.com</p>
-                    <p>+55 11 986899408</p> 
-                </div>
-                <div class="right socialmedia">
-                    <a href="#"><span class="linkedin">Linkedin</span></a>
-                    <a href="#"><span class="behance">Behance</span></a>
-                    <a href="#"><span class="dribbble">Dribbble</span></a>
-                </div>
-            </div>
-            
-        </footer>
-        `;
+        
 
-        //const shadowRoot = this.attachShadow({ mode: "open" });
-        this.appendChild(template.content.cloneNode(true));
+        fetch('portfolio.json').then(resposta =>{
+            return resposta.json();
+        }).then ((informacoes)=>{
+
+
+            template.innerHTML += `
+                    <footer>
+                        <div class="container">
+                            <div class="left">
+                                <p>${informacoes.footer.email}</p>
+                                <p>${informacoes.footer.phone}</p> 
+                            </div>
+                            <div class="right socialmedia">
+                                <a href="${informacoes.footer.socialmedias.linkedin}"><span class="linkedin">Linkedin</span></a>
+                                <a href="${informacoes.footer.socialmedias.behance}"><span class="behance">Behance</span></a>
+                                <a href="${informacoes.footer.socialmedias.dribbble}"><span class="dribbble">Dribbble</span></a>
+                            </div>
+                        </div>
+                        
+                    </footer>
+                `;
+
+                this.appendChild(template.content.cloneNode(true)); 
+                
+        })
 }}
