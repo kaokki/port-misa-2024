@@ -5,7 +5,7 @@ export class HeaderSite extends HTMLElement {
         let template = document.createElement('template');
         template.innerHTML = `
         <header>
-            <a href="/index.html" class="logo">
+            <a href="/" class="logo">
                 <img src="src/imgs/ico-logo.svg" alt=""> Luiza Formiga
             </a>
 
@@ -18,7 +18,7 @@ export class HeaderSite extends HTMLElement {
             <nav class="menu">
                 <ul>
                     <li><a href="/about.html"><span data-text="About">About</span></a></li>
-                    <li><a href="/index.html#works" class="works-btn"><span data-text="Works">Works</span></a></li>
+                    <li><a href="/#works" class="works-btn"><span data-text="Works">Works</span></a></li>
                     <li><a href="/src/luiza_cv.pdf" target="_blank"><span data-text="Resume">Resume</span></a></li>
                 </ul>
             </nav>

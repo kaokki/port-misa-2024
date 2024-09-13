@@ -122,6 +122,7 @@
                     position: relative;
                     line-height: 40px;
                     font-weight: 800;
+                    color: $darkgrey;
 
                     @include size(medium){
                         font-size: 28px;
@@ -155,6 +156,7 @@
                     letter-spacing: 1px;
                     line-height: 21px;
                     margin-bottom: 32px;
+                    color: $darkgrey;
 
                     @include size(small){
                         margin-bottom: 16px;

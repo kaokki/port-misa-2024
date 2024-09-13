@@ -32,6 +32,7 @@
             font-weight: 800;
             @include text-gradient;
             transition-delay: .2s;
+            color: $darkgrey;
 
             @include size(small){
                 font-size: 34px;
@@ -89,6 +90,7 @@
         display: flex;
         justify-content: space-between;
         align-items: flex-start;
+        color: $darkgrey;
 
         @include size(medium){
             padding: 0 20px;
@@ -102,6 +104,7 @@
         &_descripton {
             max-width: 563px;
             width: 100%;
+            color: $darkgrey;
 
             @include size(small){
                 margin-bottom: 48px;
@@ -125,6 +128,7 @@
             max-width: 412px;
             width: 100%;
             transition-delay: .2s;
+            color: $darkgrey;
 
             ul { 
                 li {
@@ -221,6 +225,7 @@
                 margin-bottom: 48px;
                 position: relative;
                 padding-top: 72px;
+                color: $darkgrey;
 
                 @include size(small){
                     padding-top: 48px;
@@ -241,6 +246,7 @@
             ul {
                 li {
                     margin-bottom: 32px;
+                    color: $darkgrey;
 
                     &:last-child {
                         margin-bottom: 0;

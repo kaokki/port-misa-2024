@@ -132,7 +132,7 @@ export class InternaProjeto extends HTMLElement {
                     ${divDate.innerHTML}
                 </div>
             </section>
-            <section class="gallery date animation up">
+            <section class="gallery">
                 ${divGaleria.innerHTML}
             </section>
                 `;
@@ -142,6 +142,59 @@ export class InternaProjeto extends HTMLElement {
 }
 
 connectedCallback(){
+
+
+    // efeito de animaçao
+
+  function animationEffect(){
+    // Create the observer like the examples above
+    const animationObserver = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('on');
+          return;
+        }
+      });
+    });
+
+    // Get multiple elements instead of a single one using "querySelectorAll"
+    const animacao = document.querySelectorAll('.animation');
+
+    // Loop over the elements and add each one to the observer
+    animacao.forEach((element) => animationObserver.observe(element));
+
+  }
+
+    setTimeout(function() {
+        animationEffect();
+  
+      // Create the observer like the examples above
+      const galleryObserver = new IntersectionObserver(entries => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            // setTimeout(() => {
+            //   entry.target.src = entry.target.getAttribute('data-image');
+            //   entry.target.classList.add('show');
+            // }, "500");
+            entry.target.src = entry.target.getAttribute('data-image');
+            entry.target.classList.add('show');
+  
+            const loading = entry.target.previousElementSibling;
+  
+            entry.target.addEventListener('load', function() {
+              loading.style.display = 'none';
+            });
+            return;
+          }
+        });
+      });
+  
+      // Get multiple elements instead of a single one using "querySelectorAll"
+      const galleryImgs = document.querySelectorAll('.gallery img');
+  
+      // Loop over the elements and add each one to the observer
+      galleryImgs.forEach((element) => galleryObserver.observe(element));
+      }, 200);
     
 }
 

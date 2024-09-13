@@ -89,4 +89,52 @@ export class AboutPage extends HTMLElement {
         })
 }
 
+
+connectedCallback(){
+
+    // efeito de animaçao
+
+  function animationEffect(){
+    // Create the observer like the examples above
+    const animationObserver = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('on');
+          return;
+        }
+      });
+    });
+
+    // Get multiple elements instead of a single one using "querySelectorAll"
+    const animacao = document.querySelectorAll('.animation');
+
+    // Loop over the elements and add each one to the observer
+    animacao.forEach((element) => animationObserver.observe(element));
+
+  }
+  
+  setTimeout(function() {
+    animationEffect();
+
+  // efeito animaçao barras skills
+  // Create the observer like the examples above
+  const skillsObserver = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('on');
+        return;
+      }
+    });
+  });
+
+  // Get multiple elements instead of a single one using "querySelectorAll"
+  const skillBars = document.querySelectorAll('.about-me_text_skills ul li');
+
+  // Loop over the elements and add each one to the observer
+  skillBars.forEach((element) => skillsObserver.observe(element));
+  }, 200);
+
+    
+}
+
 }

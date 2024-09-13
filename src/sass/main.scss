@@ -173,6 +173,8 @@ body {
 
     @include size(small){
         font-size: 16px;
+        display: block;
+        height: 17px;
     }
 
     span {
@@ -191,6 +193,11 @@ body {
     &:hover {
         span {
             top: -15px;
+        }
+    }
+    img {
+        @include size(small){
+            margin-left: 8px;
         }
     }
   }

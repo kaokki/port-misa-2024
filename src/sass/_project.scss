@@ -7,6 +7,7 @@
         margin-left: auto;
         margin-right: auto;
         margin-bottom: 100px;
+        color: $darkgrey;
 
         @include size(small){
             margin-bottom: 48px;
@@ -99,6 +100,10 @@
             margin-bottom: 80px;
             opacity: 0;
             transition: all .5s ease-in-out;
+
+            @include size(small){
+                margin-bottom: 20px;
+            }
 
             &.show {
                 opacity: 1 !important;
