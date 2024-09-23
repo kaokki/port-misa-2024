@@ -2,7 +2,6 @@ export class PostSection extends HTMLElement {
     constructor() {
         super();
 
-
         const template = document.createElement('template');
         fetch('portfolio.json').then(resposta =>{
             return resposta.json();
@@ -10,13 +9,13 @@ export class PostSection extends HTMLElement {
             //console.log(informacoes.posts);
             this.innerHTML = '';
             for (let i = 0; i < informacoes.posts.length; i++) {
-                // let classReverse = '';
-                // informacoes.posts[i].reverse ? classReverse = 'reverse' : classReverse = '';
+                let classTextLight = '';
+                informacoes.posts[i].cor_texto_claro ? classTextLight = 'text-light' : classTextLight = '';
 
-                //console.log(informacoes.posts[i].descricao_home);
+                //console.log(informacoes.posts[i].cor_texto_claro);
 
                 template.innerHTML += `
-                    <div class="project" data-color="${informacoes.posts[i].bg_color}">
+                    <div class="project ${classTextLight}" data-color="${informacoes.posts[i].bg_color}">
                         <a href="/project.html?name=${informacoes.posts[i].url}&id=${i}">
                         <div class="img animation up"><img src="${informacoes.posts[i].img_thumb}"></div>
                         <div class="description animation up">
@@ -47,6 +46,8 @@ connectedCallback(){
           return;
         }
       });
+    }, {
+      rootMargin: '150px'
     });
 
     // Get multiple elements instead of a single one using "querySelectorAll"
@@ -67,6 +68,11 @@ connectedCallback(){
           if (entry.isIntersecting) {
             document.body.style.backgroundColor = entry.target.getAttribute('data-color');
             document.querySelector('header').style.backgroundColor = entry.target.getAttribute('data-color');
+            if(entry.target.classList.contains('text-light')){
+              document.body.classList.add('text-light');
+            } else {
+              document.body.classList.remove('text-light');
+            }
             return;
           }
         });
@@ -87,6 +93,7 @@ connectedCallback(){
         entries.forEach(entry => {
           if (!entry.isIntersecting) {
             document.body.style.backgroundColor = '#F7F9FA';
+            document.body.classList.remove('text-light');
             document.querySelector('header').style.backgroundColor = '#F7F9FA';
             return;
           }
@@ -98,7 +105,7 @@ connectedCallback(){
       worksObserver.observe(projetosDiv);
 
       animationEffect();
-    }, 200);
+    }, 500);
     
 }
 

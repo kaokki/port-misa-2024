@@ -24,8 +24,44 @@ export class HeaderSite extends HTMLElement {
             </nav>
             <div class="menu_bg"></div>
         </header>
+        <div class="scroll">
+            <div class="scroll__ico">
+                <span></span>
+                <span></span>
+            </div>
+            <p>scroll</p>
+        </div>
         `;
 
         //const shadowRoot = this.attachShadow({ mode: "open" });
         this.appendChild(template.content.cloneNode(true));
-}}
+}
+
+connectedCallback(){
+    setTimeout(function() {
+        //console.log("carregou header", document.body.scrollHeight);
+        // var pageHeight = document.body.scrollHeight;
+        // var scrollPosition = document.querySelector('.works').offsetTop;
+
+        window.addEventListener("scroll", () => {
+            const elemento = document.querySelector('.scroll');
+            const scrollPosition = window.scrollY + window.innerHeight;
+            const documentHeight = document.documentElement.scrollHeight - 100;
+            console.log(scrollPosition, documentHeight);
+
+            // Verifica se o usuário chegou ao final da página
+            if (scrollPosition >= documentHeight) {
+                console.log("é maior");
+                //elemento.style.display = 'none'; // Faz o elemento desaparecer
+                elemento.classList.add("hide");
+            } else {
+                console.log("é menor");
+                //elemento.style.display = 'flex'; // Garante que o elemento apareça novamente
+                elemento.classList.remove("hide");
+            }
+          });
+      }, 500);
+}
+
+
+}

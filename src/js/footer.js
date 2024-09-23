@@ -18,9 +18,9 @@ export class FooterSite extends HTMLElement {
                                 <p>${informacoes.footer.phone}</p> 
                             </div>
                             <div class="right socialmedia">
-                                <a href="${informacoes.footer.socialmedias.linkedin}"><span class="linkedin">Linkedin</span></a>
-                                <a href="${informacoes.footer.socialmedias.behance}"><span class="behance">Behance</span></a>
-                                <a href="${informacoes.footer.socialmedias.dribbble}"><span class="dribbble">Dribbble</span></a>
+                                <a href="${informacoes.footer.socialmedias.linkedin}" target="_blank"><span class="linkedin">Linkedin</span></a>
+                                <a href="${informacoes.footer.socialmedias.behance}" target="_blank"><span class="behance">Behance</span></a>
+                                <a href="${informacoes.footer.socialmedias.dribbble}" target="_blank"><span class="dribbble">Dribbble</span></a>
                             </div>
                         </div>
                         

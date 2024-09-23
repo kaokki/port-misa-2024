@@ -194,7 +194,7 @@ connectedCallback(){
   
       // Loop over the elements and add each one to the observer
       galleryImgs.forEach((element) => galleryObserver.observe(element));
-      }, 200);
+      }, 500);
     
 }
 

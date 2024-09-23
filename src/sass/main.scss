@@ -60,6 +60,91 @@ body {
     * {
         box-sizing: border-box;
     }
+
+    &.text-light {
+        * {
+            color: $grey !important;
+        }
+
+        .more {        
+            img {
+                filter: brightness(0) saturate(100%) invert(92%) sepia(3%) saturate(1249%) hue-rotate(197deg) brightness(108%) contrast(95%);
+            }
+          }
+
+        .menu-btn {
+            span {
+                background-color: $grey;
+            }
+        }
+        .menu {        
+            ul {        
+                li {         
+                    a {
+                        color: $darkgrey !important;
+                        span {
+                            color: $darkgrey !important;
+                        }
+                    }
+                }
+            }
+        }
+        .on {
+            .menu-btn {
+                span {
+                    background-color: $darkgrey !important;
+                }
+            }
+        }
+
+        footer {
+            & > .container {
+                p {
+                    &:first-child {
+                        &:after {
+                            filter: brightness(0) saturate(100%) invert(92%) sepia(3%) saturate(1249%) hue-rotate(197deg) brightness(108%) contrast(95%);
+                        }
+                    }
+                }
+
+                & > div {        
+                    &.socialmedia {        
+                        a {
+                            span {
+                                &.behance {
+                                    filter: brightness(0) saturate(100%) invert(92%) sepia(3%) saturate(1249%) hue-rotate(197deg) brightness(108%) contrast(95%);
+                                }
+                                &.linkedin {
+                                    filter: brightness(0) saturate(100%) invert(92%) sepia(3%) saturate(1249%) hue-rotate(197deg) brightness(108%) contrast(95%);
+                                }
+                                &.dribbble {
+                                    filter: brightness(0) saturate(100%) invert(92%) sepia(3%) saturate(1249%) hue-rotate(197deg) brightness(108%) contrast(95%);
+                                }
+                            }
+                        }
+        
+                        &:hover {
+                            a {
+                                opacity: 0.3; 
+                            }
+        
+                            a:hover {
+                                opacity: 1;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .scroll {        
+            &__ico {        
+                span {
+                    filter: brightness(0) saturate(100%) invert(92%) sepia(3%) saturate(1249%) hue-rotate(197deg) brightness(108%) contrast(95%);
+                }
+            }
+          }
+    }
 }
 
 
@@ -202,6 +287,25 @@ body {
     }
   }
 
+  @supports (font: -apple-system-body) and (-webkit-appearance: none) {
+    .intro {
+        .more {
+            span {
+                font-size: 14px;
+                width: 148px;
+            }
+        }
+    }
+    .about-me_intro {
+        .more {
+            span {
+                font-size: 14px;
+                width: 140px;
+            }
+        }
+    }
+  }
+
 // .loading {
 //     width: 50px;
 //     height: 50px;
@@ -240,6 +344,77 @@ body {
       40%{background-position:0% 100%, 50%   0%,100%  50%}
       60%{background-position:0%  50%, 50% 100%,100%   0%}
       80%{background-position:0%  50%, 50%  50%,100% 100%}
+  }
+
+  .scroll {
+    position: fixed;
+    bottom: 60px;
+    right: 60px;
+    width: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+    z-index: 10;
+    animation: Up 500ms ease-in-out 1;
+    animation-delay: 0.6s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+    color: $darkgrey;
+    transition: all 0.5s ease-in-out;
+
+    &.hide {
+        display: none;
+        transition: all 0.5s ease-in-out;
+    }
+
+    p {
+        font-family: $fontAvenir;
+        font-size: 10px;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    &__ico {
+        position: relative;
+        height: 22px;
+
+        span {
+            &:first-child {
+                top: 0;
+                left: 0;
+                content: url(/src/imgs/scroll_mouse.svg);
+            }
+            &:last-child {
+                position: absolute;
+                top: 5px;
+                left: 7px;
+                content: url(/src/imgs/scroll_mouse_middle.svg);
+                animation: scroll .6s infinite linear;
+            }
+        }
+    }
+
+    @include size(medium){
+        display: none;
+    }
+
+    @include size(small){
+        display: none;
+    }
+  }
+
+  @keyframes scroll {
+    0% {
+        top: 5px;
+    }
+    50% {
+        top: 8px;
+    }
+    100% {
+        top: 5px;
+    }
+    
   }
 
   

@@ -29,7 +29,7 @@ export class AboutPage extends HTMLElement {
             for (let i = 0; i < informacoes.about.experience.length; i++){
                 listaExperience.innerHTML += `
                 <li>
-                    <small>${informacoes.about.experience[i].from} - ${informacoes.about.experience[i].to}</small>
+                    <small>${informacoes.about.experience[i].date}</small>
                     <p>${informacoes.about.experience[i].position}</p>
                     <span>@ ${informacoes.about.experience[i].employer}</span>
                 </li>
@@ -52,17 +52,17 @@ export class AboutPage extends HTMLElement {
 
             template.innerHTML += `
             <section class="container about-me_intro">
-                <img src="${informacoes.about.image}" alt="" class="about-me_intro_img animation up">
-                <h2 class="animation up">Hello, I'm Luiza <span>Senior User Interface designer</span></h2>
+                <img src="${informacoes.about.image}" alt="" class="about-me_intro_img">
+                <h2>Hello, I'm Luiza <span>Senior User Interface designer</span></h2>
                 <a href="${informacoes.about.resume}" target="_blank" class="more"><span data-text="See my resume">See my resume</span><img src="src/imgs/more.svg" alt="more"></a>
             </section>
 
             <section class="about-me_text">
-                <div class="about-me_text_descripton animation up">
+                <div class="about-me_text_descripton">
                     <h6>${informacoes.about.descricao.titulo}</h6>
                     <p>${informacoes.about.descricao.texto}</p>
                 </div>
-                <div class="about-me_text_skills animation up">
+                <div class="about-me_text_skills">
                     <ul>
                     ${listaSkill.innerHTML}
                     </ul>
@@ -132,7 +132,7 @@ connectedCallback(){
 
   // Loop over the elements and add each one to the observer
   skillBars.forEach((element) => skillsObserver.observe(element));
-  }, 200);
+  }, 500);
 
     
 }

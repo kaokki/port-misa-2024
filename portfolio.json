@@ -1,29 +1,29 @@
 {
     "posts": [
         {
-        "titulo": "Meio & Mensagem",
-        "descricao_home": "Lorem ipsum dolor sit amet consectetur. Laoreet ac sed turpis nullam malesuada est platea. Posuere ornare sit viverra est magna egestas. Felis venenatis imperdiet et donec egestas eu. Diam egestas at vel semper libero nam porta vitae. Odio ut nunc euismod vehicula lectus.",
-        "descricao_interna":"Lorem ipsum dolor sit amet consectetur. Morbi dui in facilisis facilisis. Nulla sit sit volutpat varius sed sed commodo venenatis. Praesent sed quis odio massa sit. Lorem at nullam facilisis dolor pharetra nisi eu lorem. Non orci cursus porta ut. Luctus nunc eget id vulputate dolor vitae. Purus scelerisque libero auctor sed amet porttitor ut ut neque.",
+        "titulo": "Meio&Mensagem App",
+        "descricao_home": "I designed this intuitive app where users can read articles, listen to podcasts, and bookmark their favorite content.",
+        "descricao_interna":"Meio&Mensagem, a top digital newspaper in the realms of publicity and digital marketing, tasked me with creating a mobile app to enhance its reader experience. I began by holding detailed meetings with the client to grasp their needs, then crafted refined wireframes to outline the app’s structure. Then, I designed a polished, functional app featuring both dark and light modes. It offers an intuitive interface where users can read articles, listen to podcasts, and bookmark their favorite content.",
         "img_thumb": "src/imgs/thumbs/mm.jpg",
         "url":"meio-mensagem",
-        "bg_color": "#a9dfff",
-        "categoria": "UI/UX Design",
+        "bg_color": "#2C9DDE",
+        "cor_texto_claro":true,
+        "categoria": "Mobile App",
         "role": [
-            "Interface design",
-            "Wireframe",
-            "User flow",
+            "UI Design",
+            "UX Design",
+            "Wireframing",
             "Prototyping"
         ],
         "tools": [
-            "Figma",
-            "Whimsical",
-            "Google Material"
+            "Sketch",
+            "Whimsical"
         ],
         "Client": [
-            "Delivery Time"
+            "Meio&Mensagem"
         ],
         "Date": [
-            "2022"
+            "2019"
         ],
         "galeria": [
             {"img": "src/imgs/projects/meiomensagem/img1.jpg"},
@@ -34,26 +34,26 @@
         ]
         },
         {
-        "titulo": "L5 chat",
-        "descricao_home": "Lorem ipsum dolor sit amet consectetur. Laoreet ac sed turpis nullam malesuada est platea. Posuere ornare sit viverra est magna egestas. Felis venenatis imperdiet et donec egestas eu. Diam egestas at vel semper libero nam porta vitae. Odio ut nunc euismod vehicula lectus.",
-        "descricao_interna":"Lorem ipsum dolor sit amet consectetur. Morbi dui in facilisis facilisis. Nulla sit sit volutpat varius sed sed commodo venenatis. Praesent sed quis odio massa sit. Lorem at nullam facilisis dolor pharetra nisi eu lorem. Non orci cursus porta ut. Luctus nunc eget id vulputate dolor vitae. Purus scelerisque libero auctor sed amet porttitor ut ut neque.",
+        "titulo": "L5 Chat App",
+        "descricao_home": "The challenge was to develop an app with robust features, including text messaging, video calls, audio messages, photo gallery integration, and both internal and external voice calls.",
+        "descricao_interna":"L5 Chat is a cutting-edge service designed to streamline communication between call center agents and end customers. The challenge was to develop an app with robust features, including text messaging, video calls, audio messages, photo gallery integration, and both internal and external voice calls. The app also needed to support scheduling with a calendar for viewing and marking events. I began by designing a practical wireframe to address these needs efficiently, followed by creating a sleek and user-friendly interface. The result is an intuitive app that improves interaction and simplifies communication.",
         "img_thumb": "src/imgs/thumbs/chat.jpg",
         "url":"l5-chat",
-        "bg_color": "#f2e9ff",
-        "categoria": "UI/UX Design",
+        "bg_color": "#444577",
+        "cor_texto_claro": true,
+        "categoria": "Mobile and Tablet App",
         "role": [
-            "Interface design",
-            "Wireframe",
-            "User flow",
+            "UI Design",
+            "UX Design",
+            "Wireframing",
             "Prototyping"
         ],
         "tools": [
             "Figma",
-            "Whimsical",
-            "Google Material"
+            "Whimsical"
         ],
         "Client": [
-            "Delivery Time"
+            "L5 Chat"
         ],
         "Date": [
             "2022"
@@ -67,26 +67,25 @@
         ]
         },
         {
-        "titulo": "Flash Service",
-        "descricao_home": "Lorem ipsum dolor sit amet consectetur. Laoreet ac sed turpis nullam malesuada est platea. Posuere ornare sit viverra est magna egestas. Felis venenatis imperdiet et donec egestas eu. Diam egestas at vel semper libero nam porta vitae. Odio ut nunc euismod vehicula lectus.",
-        "descricao_interna":"Lorem ipsum dolor sit amet consectetur. Morbi dui in facilisis facilisis. Nulla sit sit volutpat varius sed sed commodo venenatis. Praesent sed quis odio massa sit. Lorem at nullam facilisis dolor pharetra nisi eu lorem. Non orci cursus porta ut. Luctus nunc eget id vulputate dolor vitae. Purus scelerisque libero auctor sed amet porttitor ut ut neque.",
+        "titulo": "Flash Service App",
+        "descricao_home": "This mobile app allows users to quickly and securely book mechanical assistance or order automotive equipment and parts.",
+        "descricao_interna":"This mobile app allows users to quickly and securely book mechanical assistance or order automotive equipment and parts. I designed the app with user experience in mind, enabling users to view detailed information about service providers or delivery personnel, schedule deliveries, and track order and service status. The interface features straightforward and practical buttons and interactions while maintaining a playful aesthetic that aligns with the client’s logo.",
         "img_thumb": "src/imgs/thumbs/flash.jpg",
         "url":"flash-service",
-        "bg_color": "#fffceb",
-        "categoria": "Web design",
+        "bg_color": "#FFD810",
+        "cor_texto_claro": false,
+        "categoria": "Mobile App",
         "role": [
-            "Interface design",
-            "Wireframe",
-            "User flow",
+            "UI Design",
+            "UX Design",
             "Prototyping"
         ],
         "tools": [
             "Figma",
-            "Whimsical",
-            "Google Material"
+            "Whimsical"
         ],
         "Client": [
-            "Delivery Time"
+            "L5 Chat"
         ],
         "Date": [
             "2022"
@@ -100,29 +99,30 @@
         ]
         },
         {
-        "titulo": "Via App",
-        "descricao_home": "Lorem ipsum dolor sit amet consectetur. Laoreet ac sed turpis nullam malesuada est platea. Posuere ornare sit viverra est magna egestas. Felis venenatis imperdiet et donec egestas eu. Diam egestas at vel semper libero nam porta vitae. Odio ut nunc euismod vehicula lectus.",
-        "descricao_interna":"Lorem ipsum dolor sit amet consectetur. Morbi dui in facilisis facilisis. Nulla sit sit volutpat varius sed sed commodo venenatis. Praesent sed quis odio massa sit. Lorem at nullam facilisis dolor pharetra nisi eu lorem. Non orci cursus porta ut. Luctus nunc eget id vulputate dolor vitae. Purus scelerisque libero auctor sed amet porttitor ut ut neque.",
+        "titulo": "Arteris Road App",
+        "descricao_home": "This app helps travelers on Arteris-managed roads connect with the help center via voice calls, video calls, or text messages for prompt assistance.",
+        "descricao_interna":"Arteris is one of Brazil's largest highway concession companies. The app I designed is tailored to assist users traveling on the roads managed by Arteris. Through the app, users can easily contact the highway's help center via voice calls, video calls, or text messages. The app is designed to support mechanical assistance requests, emergency services, toll information, and even weather conditions. I meticulously crafted a wireframe to ensure that the app's features were clear and effective, reflecting its critical role in enhancing user safety and convenience.",
         "img_thumb": "src/imgs/thumbs/viaapp.jpg",
         "url":"via-app",
-        "bg_color": "#eff3fe",
-        "categoria": "Web design",
+        "bg_color": "#33A887",
+        "cor_texto_claro": true,
+        "categoria": "Mobile and Tablet App, Landing Page, Web Adm Platform",
         "role": [
-            "Interface design",
-            "Wireframe",
-            "User flow",
+            "UI Design",
+            "UX Design",
+            "Flowchart",
+            "Wireframing",
             "Prototyping"
         ],
         "tools": [
             "Figma",
-            "Whimsical",
-            "Google Material"
+            "Whimsical"
         ],
         "Client": [
-            "Delivery Time"
+            "Arteris"
         ],
         "Date": [
-            "2022"
+            "2021"
         ],
         "galeria": [
             {"img": "src/imgs/projects/viaapp/img1.jpg"},
@@ -137,29 +137,32 @@
         ]
         },
         {
-        "titulo": "Pay Food & Delivery Time",
-        "descricao_home": "Lorem ipsum dolor sit amet consectetur. Laoreet ac sed turpis nullam malesuada est platea. Posuere ornare sit viverra est magna egestas. Felis venenatis imperdiet et donec egestas eu. Diam egestas at vel semper libero nam porta vitae. Odio ut nunc euismod vehicula lectus.",
-        "descricao_interna":"Lorem ipsum dolor sit amet consectetur. Morbi dui in facilisis facilisis. Nulla sit sit volutpat varius sed sed commodo venenatis. Praesent sed quis odio massa sit. Lorem at nullam facilisis dolor pharetra nisi eu lorem. Non orci cursus porta ut. Luctus nunc eget id vulputate dolor vitae. Purus scelerisque libero auctor sed amet porttitor ut ut neque.",
+        "titulo": "Delivery Apps",
+        "descricao_home": "Users can track their orders, favorite establishments, manage payment methods, and discover a variety of restaurants and service providers through these intuitive apps.",
+        "descricao_interna":"Delivery Time and Pay Food are delivery service apps created for both delivery personnel and end customers. I designed the interfaces to ensure that information and functionalities are both practical and easy to access. To guide the creation of each screen, I constructed a detailed navigation map of the apps. Users can track their orders, favorite establishments, manage payment methods, and discover a variety of restaurants and service providers through these intuitive apps.",
         "img_thumb": "src/imgs/thumbs/delivery.jpg",
         "url":"payfood-deliverytime",
-        "bg_color": "#8df6ff",
-        "categoria": "Web design",
+        "bg_color": "#9D5AF0",
+        "cor_texto_claro": true,
+        "categoria": "Mobile App",
         "role": [
-            "Interface design",
-            "Wireframe",
-            "User flow",
+            "UI Design",
+            "UX Design",
+            "Flowchart",
+            "Wireframing",
             "Prototyping"
         ],
         "tools": [
             "Figma",
-            "Whimsical",
-            "Google Material"
+            "Sketch",
+            "Whimsical"
         ],
         "Client": [
-            "Delivery Time"
+            "Delivery Time",
+            "Pay Food"
         ],
         "Date": [
-            "2022"
+            "2022/2023"
         ],
         "galeria": [
             {"img": "src/imgs/projects/deliverytime/img1.jpg"},
@@ -171,26 +174,26 @@
         ]
         },
         {
-        "titulo": "Medic 24h",
-        "descricao_home": "Lorem ipsum dolor sit amet consectetur. Laoreet ac sed turpis nullam malesuada est platea. Posuere ornare sit viverra est magna egestas. Felis venenatis imperdiet et donec egestas eu. Diam egestas at vel semper libero nam porta vitae. Odio ut nunc euismod vehicula lectus.",
-        "descricao_interna":"Lorem ipsum dolor sit amet consectetur. Morbi dui in facilisis facilisis. Nulla sit sit volutpat varius sed sed commodo venenatis. Praesent sed quis odio massa sit. Lorem at nullam facilisis dolor pharetra nisi eu lorem. Non orci cursus porta ut. Luctus nunc eget id vulputate dolor vitae. Purus scelerisque libero auctor sed amet porttitor ut ut neque.",
+        "titulo": "Medic 24h App",
+        "descricao_home": "This mobile app I designed facilitates seamless online consultation between patients and doctors.",
+        "descricao_interna":"This mobile app I designed facilitates seamless online consultation between patients and doctors. Through the app, patients can search for specialists, schedule appointments, upload and view medical tests, complete health questionnaires, and check insurance details. In addition to designing the mobile app, I also structured and created interfaces for the app’s administrative web platform, ensuring a cohesive and efficient user experience across both platforms.",
         "img_thumb": "src/imgs/thumbs/medic.jpg",
         "url":"medic-24h",
-        "bg_color": "#9beef7",
-        "categoria": "Web design",
+        "bg_color": "#0097A7",
+        "cor_texto_claro": true,
+        "categoria": "Mobile App, Web Adm Platform",
         "role": [
-            "Interface design",
-            "Wireframe",
-            "User flow",
+            "UI Design",
+            "UX Design",
+            "Wireframing",
             "Prototyping"
         ],
         "tools": [
-            "Figma",
-            "Whimsical",
-            "Google Material"
+            "Sketch",
+            "Whimsical"
         ],
         "Client": [
-            "Delivery Time"
+            "Medic 24h"
         ],
         "Date": [
             "2022"
@@ -204,29 +207,29 @@
         ]
         },
         {
-        "titulo": "Radio ZLZN",
-        "descricao_home": "Lorem ipsum dolor sit amet consectetur. Laoreet ac sed turpis nullam malesuada est platea. Posuere ornare sit viverra est magna egestas. Felis venenatis imperdiet et donec egestas eu. Diam egestas at vel semper libero nam porta vitae. Odio ut nunc euismod vehicula lectus.",
-        "descricao_interna":"Lorem ipsum dolor sit amet consectetur. Morbi dui in facilisis facilisis. Nulla sit sit volutpat varius sed sed commodo venenatis. Praesent sed quis odio massa sit. Lorem at nullam facilisis dolor pharetra nisi eu lorem. Non orci cursus porta ut. Luctus nunc eget id vulputate dolor vitae. Purus scelerisque libero auctor sed amet porttitor ut ut neque.",
+        "titulo": "Radio ZLZN App",
+        "descricao_home": "The app allows listeners not only to tune in to the Radio ZLZN station but also to interact with real-time broadcasts.",
+        "descricao_interna":"The Radio ZLZN app, created for the regional online station based in Manaus, offers an enhanced listening experience. The app allows listeners not only to tune in to the station but also to interact with real-time broadcasts. It features live streams, podcasts, music quizzes, and even giveaways. I meticulously designed the interfaces to align with the app’s functionalities, ensuring a comprehensive and immersive experience for all listeners.",
         "img_thumb": "src/imgs/thumbs/radio.jpg",
         "url":"radio-zlzn",
-        "bg_color": "#f7b7a2",
-        "categoria": "Web design",
+        "bg_color": "#484749",
+        "cor_texto_claro": true,
+        "categoria": "Mobile App",
         "role": [
-            "Interface design",
-            "Wireframe",
-            "User flow",
+            "UI Design",
+            "UX Design",
+            "Wireframing",
             "Prototyping"
         ],
         "tools": [
             "Figma",
-            "Whimsical",
-            "Google Material"
+            "Whimsical"
         ],
         "Client": [
-            "Delivery Time"
+            "Radio ZLZN"
         ],
         "Date": [
-            "2022"
+            "2023"
         ],
         "galeria": [
             {"img": "src/imgs/projects/radiozlzn/img1.jpg"},
@@ -237,28 +240,29 @@
         },
         {
         "titulo": "Imediato",
-        "descricao_home": "Lorem ipsum dolor sit amet consectetur. Laoreet ac sed turpis nullam malesuada est platea. Posuere ornare sit viverra est magna egestas. Felis venenatis imperdiet et donec egestas eu. Diam egestas at vel semper libero nam porta vitae. Odio ut nunc euismod vehicula lectus.",
-        "descricao_interna":"Lorem ipsum dolor sit amet consectetur. Morbi dui in facilisis facilisis. Nulla sit sit volutpat varius sed sed commodo venenatis. Praesent sed quis odio massa sit. Lorem at nullam facilisis dolor pharetra nisi eu lorem. Non orci cursus porta ut. Luctus nunc eget id vulputate dolor vitae. Purus scelerisque libero auctor sed amet porttitor ut ut neque.",
+        "descricao_home": "I was responsible for structuring a new website, app, and administrative platform to enhance the Imediato site’s functionality.",
+        "descricao_interna":"Imediato is an interactive and collaborative website created to inform the community, report issues, and seek solutions in partnership with relevant authorities. I was responsible for structuring a new website, app, and administrative platform to enhance the site’s functionality. To ensure excellence in the project, I mapped out navigation flows and wireframes, designing the screen interfaces to be intuitive and aligned with the brand’s vision. Through the app, users can access live news streams, read the latest articles firsthand, and even monetize their contributions by submitting their own stories or collaborating with the community on reports and news.",
         "img_thumb": "src/imgs/thumbs/imediato.jpg",
         "url":"imediato",
-        "bg_color": "#ffe79e",
-        "categoria": "Web design",
+        "bg_color": "#EC681C",
+        "cor_texto_claro": true,
+        "categoria": "Mobile App, Landing Page, Web Adm Platform",
         "role": [
-            "Interface design",
-            "Wireframe",
-            "User flow",
+            "UI Design",
+            "UX Design",
+            "Flowchart",
+            "Wireframing",
             "Prototyping"
         ],
         "tools": [
             "Figma",
-            "Whimsical",
-            "Google Material"
+            "Whimsical"
         ],
         "Client": [
-            "Delivery Time"
+            "Imediato"
         ],
         "Date": [
-            "2022"
+            "2021"
         ],
         "galeria": [
             {"img": "src/imgs/projects/imediato/img1.jpg"},
@@ -276,28 +280,28 @@
         },
         {
         "titulo": "Educpay",
-        "descricao_home": "Lorem ipsum dolor sit amet consectetur. Laoreet ac sed turpis nullam malesuada est platea. Posuere ornare sit viverra est magna egestas. Felis venenatis imperdiet et donec egestas eu. Diam egestas at vel semper libero nam porta vitae. Odio ut nunc euismod vehicula lectus.",
-        "descricao_interna":"Lorem ipsum dolor sit amet consectetur. Morbi dui in facilisis facilisis. Nulla sit sit volutpat varius sed sed commodo venenatis. Praesent sed quis odio massa sit. Lorem at nullam facilisis dolor pharetra nisi eu lorem. Non orci cursus porta ut. Luctus nunc eget id vulputate dolor vitae. Purus scelerisque libero auctor sed amet porttitor ut ut neque.",
+        "descricao_home": "Educpay is a platform offering educational solutions, financial transactions for buying and selling, and access to various educational programs.",
+        "descricao_interna":"Educpay is a platform offering educational solutions, financial transactions for buying and selling, and access to various educational programs. I was responsible for designing the app, landing page, and administrative platform. I meticulously mapped out each screen and interaction in detailed wireframes to ensure a smooth user experience. The screens were designed to be visually appealing, catering primarily to young students looking to advance their careers. The app features an advanced e-commerce system with a shopping cart and streamlined checkout process.",
         "img_thumb": "src/imgs/thumbs/educpay.jpg",
         "url":"educpay",
-        "bg_color": "#bafff5",
-        "categoria": "Web design",
+        "bg_color": "#3D3D3D",
+        "cor_texto_claro": true,
+        "categoria": "Mobile App, Landing Page, Web Adm Platform",
         "role": [
-            "Interface design",
-            "Wireframe",
-            "User flow",
+            "UI Design",
+            "UX Design",
+            "Wireframing",
             "Prototyping"
         ],
         "tools": [
             "Figma",
-            "Whimsical",
-            "Google Material"
+            "Whimsical"
         ],
         "Client": [
-            "Delivery Time"
+            "Educpay"
         ],
         "Date": [
-            "2022"
+            "2021"
         ],
         "galeria": [
             {"img": "src/imgs/projects/educpay/img1.jpg"},
@@ -312,29 +316,29 @@
         ]
         },
         {
-        "titulo": "Achei para você",
-        "descricao_home": "Lorem ipsum dolor sit amet consectetur. Laoreet ac sed turpis nullam malesuada est platea. Posuere ornare sit viverra est magna egestas. Felis venenatis imperdiet et donec egestas eu. Diam egestas at vel semper libero nam porta vitae. Odio ut nunc euismod vehicula lectus.",
-        "descricao_interna":"Lorem ipsum dolor sit amet consectetur. Morbi dui in facilisis facilisis. Nulla sit sit volutpat varius sed sed commodo venenatis. Praesent sed quis odio massa sit. Lorem at nullam facilisis dolor pharetra nisi eu lorem. Non orci cursus porta ut. Luctus nunc eget id vulputate dolor vitae. Purus scelerisque libero auctor sed amet porttitor ut ut neque.",
+        "titulo": "Achei Para Você App",
+        "descricao_home": "Achei Para Você is an innovative application designed for travelers seeking to rent vacation accommodations and vehicles across the United States.",
+        "descricao_interna":"Achei Para Você is an innovative application designed for travelers seeking to rent vacation accommodations and vehicles across the United States. This product was meticulously crafted to cater to both end-users and rental partners, ensuring a seamless and satisfying experience for all parties involved. In addition to the application, I designed a highly functional landing page and an intuitive administrative platform. To guarantee optimal performance and usability, I developed detailed wireframes and prototypes.",
         "img_thumb": "src/imgs/thumbs/acheipvc.jpg",
         "url":"achei-para-voce",
-        "bg_color": "#a4eaff",
-        "categoria": "Web design",
+        "bg_color": "#DD2A5D",
+        "cor_texto_claro": true,
+        "categoria": "Mobile App, Landing Page, Web Adm Platform",
         "role": [
-            "Interface design",
-            "Wireframe",
-            "User flow",
+            "UI Design",
+            "UX Design",
+            "Wireframing",
             "Prototyping"
         ],
         "tools": [
             "Figma",
-            "Whimsical",
-            "Google Material"
+            "Whimsical"
         ],
         "Client": [
-            "Delivery Time"
+            "Achei Para Vcoê"
         ],
         "Date": [
-            "2022"
+            "2021"
         ],
         "galeria": [
             {"img": "src/imgs/projects/acheipvc/img1.jpg"},
@@ -352,29 +356,33 @@
         "image": "/src/imgs/about.png",
         "resume": "/src/luiza_cv.pdf",
         "descricao": {
-            "titulo": "Designing with love for over 10 years",
+            "titulo": "Turning ideas into thoughtful, beautiful products",
             "texto": "I’m a User Interface/Product Designer with 14 years of experience crafting clean, user-centered designs for mobile apps, web platforms, and landing pages. My journey has taken me through collaborations with cross-functional teams and a diverse range of clients, from innovative startups to established brands. I’m passionate about turning complex problems into intuitive and visually stunning experiences. Always proactive and committed to growth, I stay ahead of the curve with the latest tools, technologies, and design trends. I believe that continuous learning fuels creativity and helps me keep the magic alive in my designs. When I’m not designing, you might find me drawing, painting, and traveling."
         },
         "skills": [
             {
-                "name":"UI Design",
+                "name":"UI/UX Design",
                 "percent":"90%"
             },
             {
-                "name":"UX Design",
-                "percent":"65%"
+                "name":"Mobile App Design",
+                "percent":"80%"
             },
             {
                 "name":"Mobile app design",
                 "percent":"80%"
             },
             {
-                "name":"Wireframing",
-                "percent":"75%"
+                "name":"Wireframing & Prototyping",
+                "percent":"65%"
             },
             {
-                "name":"Responsive design",
+                "name":"Design System",
                 "percent":"70%"
+            },
+            {
+                "name":"Responsive Design",
+                "percent":"80%"
             },
             {
                 "name":"Figma",
@@ -399,34 +407,29 @@
         ],
         "experience": [
             {
-                "position": "UI/UX Designer",
-                "from": "2017",
-                "to": "present",
+                "position": "Senior UI/UX Designer",
+                "date": "2017 - 2024",
                 "employer": "Megaleios"
             },
             {
-                "position": "Web Designer",
-                "from": "2010",
-                "to": "present",
-                "employer": "4Now"
+                "position": "UI Designer and Front End Developer",
+                "date": "2014 - 2015",
+                "employer": "UOL Educação"
             },
             {
-                "position": "UI/UX Designer",
-                "from": "2013",
-                "to": "present",
-                "employer": "Rino"
+                "position": "UI Designer",
+                "date": "2013 - 2014",
+                "employer": "RINO COM Publicidade"
             },
             {
-                "position": "UI/UX Designer",
-                "from": "2017",
-                "to": "present",
-                "employer": "Megaleios"
+                "position": "Web Art Director",
+                "date": "2011 - 2012",
+                "employer": "4now Online Marketing"
             },
             {
-                "position": "UI/UX Designer",
-                "from": "2017",
-                "to": "present",
-                "employer": "Megaleios"
+                "position": "Intern as Web Designer",
+                "date": "2010",
+                "employer": "Garagemidia Studio"
             }
         ],
         "education": [
@@ -436,29 +439,29 @@
                 "school": "uiBoost"
             },
             {
-                "year": "2010",
-                "course_name": "UI Design",
-                "school": "Anhembi Morumbi"
+                "year": "2014",
+                "course_name": "Art Direction - Extension",
+                "school": "Universidade Belas Artes"
+            },
+            {
+                "year": "2013",
+                "course_name": "UX Design - Extension",
+                "school": "Miami Ad School/ESPM"
             },
             {
                 "year": "2012",
-                "course_name": "UI Design",
-                "school": "Panamericana"
+                "course_name": "Javascript and jQuery - Extension",
+                "school": "University of California Los Angeles"
             },
             {
-                "year": "2020",
-                "course_name": "UI Design",
-                "school": "uiBoost"
+                "year": "2012",
+                "course_name": "HTML 5 and CSS3 - Extension",
+                "school": "University of California Los Angeles"
             },
             {
-                "year": "2020",
-                "course_name": "UI Design",
-                "school": "uiBoost"
-            },
-            {
-                "year": "2020",
-                "course_name": "UI Design",
-                "school": "uiBoost"
+                "year": "2010",
+                "course_name": "Digital Design - Graduation",
+                "school": "Universidade Anhembi Morumbi"
             }
         ]
     },
@@ -466,9 +469,9 @@
         "email": "luiza@yakistudio.com",
         "phone": "+55 11 986899408",
         "socialmedias": {
-            "linkedin": "http://linkedin.com",
-            "behance": "http://behance.com",
-            "dribbble": "http://dribbble.com"
+            "linkedin": "https://www.linkedin.com/in/luiza-meserlian",
+            "behance": "https://www.behance.net/luizaformiga",
+            "dribbble": "https://dribbble.com/luizaformiga"
         }
     }
 }
