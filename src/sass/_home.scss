@@ -20,6 +20,13 @@
         flex-direction: column;
         line-height: 100px;
 
+        animation-name: Gradient, Up;
+        animation-duration: 2s, 500ms;
+        animation-iteration-count: infinite, 1;
+        animation-delay: .2s;
+        animation-fill-mode: forwards;
+        opacity: 0;
+
         @include size(medium){
             font-size: 60px;
             line-height: 60px;
@@ -28,6 +35,8 @@
         @include size(small){
             font-size: 56px;
             line-height: 56px;
+            animation: none;
+            opacity: 1;
         }
 
         span {
@@ -55,7 +64,15 @@
 
     .more {
         margin-top: 42px;
-        transition-delay: .2s;
+        animation: Up 500ms ease-in-out 1;
+        animation-delay: 0.4s;
+        animation-fill-mode: forwards;
+        opacity: 0;
+
+        @include size(small){
+            animation: none;
+            opacity: 1;
+        }
     }
 }
 

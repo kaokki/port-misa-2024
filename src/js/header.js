@@ -18,7 +18,7 @@ export class HeaderSite extends HTMLElement {
             <nav class="menu">
                 <ul>
                     <li><a href="/about.html"><span data-text="About">About</span></a></li>
-                    <li><a href="/#works" class="works-btn"><span data-text="Works">Works</span></a></li>
+                    <li><a href="/#work" class="works-btn"><span data-text="Work">Work</span></a></li>
                     <li><a href="/src/luiza_cv.pdf" target="_blank"><span data-text="Resume">Resume</span></a></li>
                 </ul>
             </nav>
@@ -39,9 +39,6 @@ export class HeaderSite extends HTMLElement {
 
 connectedCallback(){
     setTimeout(function() {
-        //console.log("carregou header", document.body.scrollHeight);
-        // var pageHeight = document.body.scrollHeight;
-        // var scrollPosition = document.querySelector('.works').offsetTop;
 
         window.addEventListener("scroll", () => {
             const elemento = document.querySelector('.scroll');
@@ -49,14 +46,9 @@ connectedCallback(){
             const documentHeight = document.documentElement.scrollHeight - 100;
             console.log(scrollPosition, documentHeight);
 
-            // Verifica se o usuário chegou ao final da página
             if (scrollPosition >= documentHeight) {
-                console.log("é maior");
-                //elemento.style.display = 'none'; // Faz o elemento desaparecer
                 elemento.classList.add("hide");
             } else {
-                console.log("é menor");
-                //elemento.style.display = 'flex'; // Garante que o elemento apareça novamente
                 elemento.classList.remove("hide");
             }
           });

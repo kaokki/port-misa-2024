@@ -105,7 +105,7 @@ connectedCallback(){
       worksObserver.observe(projetosDiv);
 
       animationEffect();
-    }, 500);
+    }, 700);
     
 }
 

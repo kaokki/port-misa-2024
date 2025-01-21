@@ -41,7 +41,9 @@
             transition-delay: .2s;
             color: $darkgrey;
 
-            animation: Up 500ms ease-in-out 1;
+            animation-name: Gradient, Up;
+            animation-duration: 2s, 500ms;
+            animation-iteration-count: infinite, 1;
             animation-delay: 0.1s;
             animation-fill-mode: forwards;
             opacity: 0;
