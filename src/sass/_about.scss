@@ -47,6 +47,7 @@
             animation-delay: 0.1s;
             animation-fill-mode: forwards;
             opacity: 0;
+            line-height: 73px;
 
             @include size(small){
                 font-size: 34px;
@@ -56,12 +57,12 @@
 
             span {
                 display: block;
-                font-family: $fontGruenewald;
+                font-family: $fontBaksoSapi;
                 font-size: 40px;
                 font-weight: 400;
                 color: $darkgrey;
                 -webkit-text-fill-color:$darkgrey;
-                line-height: 60px;
+                line-height: 30px;
 
                 @include size(small){
                     font-size: 24px;

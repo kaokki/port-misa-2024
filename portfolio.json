@@ -357,16 +357,20 @@
         "resume": "/src/luiza_cv.pdf",
         "descricao": {
             "titulo": "Turning ideas into thoughtful, beautiful products",
-            "texto": "I’m a User Interface/Product Designer with 14 years of experience crafting clean, user-centered designs for mobile apps, web platforms, and landing pages. My journey has taken me through collaborations with cross-functional teams and a diverse range of clients, from innovative startups to established brands. I’m passionate about turning complex problems into intuitive and visually stunning experiences. Always proactive and committed to growth, I stay ahead of the curve with the latest tools, technologies, and design trends. I believe that continuous learning fuels creativity and helps me keep the magic alive in my designs. When I’m not designing, you might find me drawing, painting, and traveling."
+            "texto": "I’m a UX/UI Designer with 14 years of experience crafting clean, user-centered designs for mobile apps, web platforms, and landing pages. My journey has taken me through collaborations with cross-functional teams and a diverse range of clients, from innovative startups to established brands. I’m passionate about turning complex problems into intuitive and visually stunning experiences. Always proactive and committed to growth, I stay ahead of the curve with the latest tools, technologies, and design trends. I believe that continuous learning fuels creativity and helps me keep the magic alive in my designs. When I’m not designing, you might find me drawing, painting, and traveling."
         },
         "skills": [
             {
-                "name":"UI/UX Design",
+                "name":"UI Design",
                 "percent":"90%"
             },
             {
-                "name":"Mobile App Design",
-                "percent":"80%"
+                "name":"Discovery & UX Research",
+                "percent":"50%"
+            },
+            {
+                "name":"Testing & Validating",
+                "percent":"70%"
             },
             {
                 "name":"Wireframing & Prototyping",
@@ -381,16 +385,8 @@
                 "percent":"80%"
             },
             {
-                "name":"Figma",
+                "name":"Figma, Sketch and Adobe XD",
                 "percent":"90%"
-            },
-            {
-                "name":"Sketch",
-                "percent":"80%"
-            },
-            {
-                "name":"Adobe XD",
-                "percent":"40%"
             },
             {
                 "name":"Photoshop & Illustrator",
@@ -403,7 +399,7 @@
         ],
         "experience": [
             {
-                "position": "Senior UI/UX Designer",
+                "position": "UI/UX Designer",
                 "date": "2017 - 2024",
                 "employer": "Megaleios"
             },
@@ -430,33 +426,33 @@
         ],
         "education": [
             {
+                "year": "2025",
+                "course_name": "Product Design, Product Discovery, UX Research - Certificate",
+                "school": "Mergo Escola de Design"
+            },
+            {
                 "year": "2020",
-                "course_name": "UI Design",
+                "course_name": "UI Design - Certificate",
                 "school": "uiBoost"
             },
             {
                 "year": "2014",
-                "course_name": "Art Direction - Extension",
+                "course_name": "Art Direction - Certificate",
                 "school": "Universidade Belas Artes"
             },
             {
                 "year": "2013",
-                "course_name": "UX Design - Extension",
+                "course_name": "UX Design - Certificate",
                 "school": "Miami Ad School/ESPM"
             },
             {
                 "year": "2012",
-                "course_name": "Javascript and jQuery - Extension",
-                "school": "University of California Los Angeles"
-            },
-            {
-                "year": "2012",
-                "course_name": "HTML 5 and CSS3 - Extension",
+                "course_name": "HTML 5, CSS3, Javascript - Certificate",
                 "school": "University of California Los Angeles"
             },
             {
                 "year": "2010",
-                "course_name": "Digital Design - Graduation",
+                "course_name": "Digital Design - Bachelor's Degree",
                 "school": "Universidade Anhembi Morumbi"
             }
         ]

@@ -116,7 +116,7 @@ export class InternaProjeto extends HTMLElement {
 
             //galeria fim
 
-            document.title = `Portfolio Luiza Formiga - ${ProjInfos.titulo}`;
+            document.title = `Luiza Formiga | UX/UI Designer - ${ProjInfos.titulo}`;
             //console.log(titlePage);
 
             template.innerHTML += `

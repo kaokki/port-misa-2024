@@ -17,16 +17,24 @@ $darkgrey: hsl(199, 18%, 33%);
     font-weight: 500;
     font-style: normal;
 }
+// @font-face {
+//     font-family: 'GruenewaldVA';
+//     src: url('fonts/GruenewaldVA.ttf') format('truetype');
+//     font-weight: normal;
+//     font-style: normal;
+// }
+
 @font-face {
-    font-family: 'GruenewaldVA';
-    src: url('fonts/GruenewaldVA.ttf') format('truetype');
+    font-family: 'Bakso Sapi';
+    src: url('fonts/BaksoSapiScript.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
 }
 
 $fontAndada: "Andada Pro", serif;
 $fontAvenir: "Avenir Next";
-$fontGruenewald: "GruenewaldVA";
+//$fontGruenewald: "GruenewaldVA";
+$fontBaksoSapi: "Bakso Sapi";
 
 
 /* MEDIA QUERY */

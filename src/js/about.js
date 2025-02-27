@@ -53,7 +53,7 @@ export class AboutPage extends HTMLElement {
             template.innerHTML += `
             <section class="container about-me_intro">
                 <img src="${informacoes.about.image}" alt="" class="about-me_intro_img">
-                <h2>Hello, I'm Luiza <span>Senior User Interface designer</span></h2>
+                <h2><span>Hello, I'm Luiza</span> UX/UI Designer</h2>
                 <a href="${informacoes.about.resume}" target="_blank" class="more"><span data-text="See my resume">See my resume</span><img src="src/imgs/more.svg" alt="more"></a>
             </section>
 
